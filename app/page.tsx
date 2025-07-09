@@ -424,7 +424,7 @@ export default function Home() {
           </div>
           <div className="mt-8 p-6 bg-white border border-gray-200 rounded-lg">
             <p className="text-sm text-gray-600 italic">
-              "Yes, the example below looks simple for one document. But imagine this across thousands of PDFs, millions of queries, and countless field representatives. That's the power of making information computer-accessible."
+              "Yes, the example below looks simple for one document. But imagine this across thousands of PDFs, millions of queries, and countless field representatives. That's the power of making information computer–accessible."
             </p>
           </div>
         </div>
