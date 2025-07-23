@@ -1,0 +1,38 @@
+  GREEN FONT=Tinos
+  /* SITE COLORS - CHANGE THESE TO UPDATE THE ENTIRE SITE */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --primary: #4ade80;
+  --primary-dark: #22c55e;
+  --secondary: #0f766e;
+  --accent: #f0fdf4;
+  --border: #dcfce7;
+  --mint-light: #ecfdf5;
+  --mint-medium: #d1fae5;
+  --mint-dark: #10b981;
+
+PINK FONT=Coda
+    /* SITE COLORS - CHANGE THESE TO UPDATE THE ENTIRE SITE */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --primary: #ffa6e7;
+  --primary-dark: #ff87cf;
+  --secondary: #ff4894;
+  --accent: #ffeeff;
+  --border: #ffcad0;
+  --mint-light: #ffc7fb;
+  --mint-medium: #ffb5e0;
+  --mint-dark: #c10074;
+
+BLACK FONT=Jura
+  /* SITE COLORS - CHANGE THESE TO UPDATE THE ENTIRE SITE */
+  --background: #ffffff;
+  --foreground: #1a1a1a;
+  --primary: #545f5c;
+  --primary-dark: #4a594c;
+  --secondary: #454545;
+  --accent: #9a9a9a;
+  --border: #cfcfcf;
+  --mint-light: #686868;
+  --mint-medium: #788883;
+  --mint-dark: #6c8e76;

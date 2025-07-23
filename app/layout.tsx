@@ -17,9 +17,10 @@ export default function RootLayout({
       <head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="" />
-        <link href="https://fonts.googleapis.com/css2?family=Geo:ital@0;1&family=IM+Fell+Great+Primer+SC&family=Tilt+Neon&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Coda:wght@400;800&display=swap" rel="stylesheet" />
+
       </head>
-      <body className="font-im-fell antialiased">
+      <body className="font-coda antialiased">
         {children}
       </body>
     </html>

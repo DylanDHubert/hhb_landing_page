@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div className="min-h-screen bg-white">
       {/* Navigation */}
-      <nav className="bg-white border-b border-green-200 shadow-sm sticky top-0 z-50 backdrop-blur-sm">
+      <nav className="bg-white border-b border-gray-300 shadow-sm sticky top-0 z-50 backdrop-blur-sm">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center">
@@ -16,19 +16,19 @@ export default function Home() {
             </div>
             <div className="hidden md:block">
               <div className="ml-10 flex items-baseline space-x-4">
-                <a href="#product" className="text-gray-700 hover:text-[#4ade80] px-3 py-2 text-sm font-medium transition-colors">
+                <a href="#product" className="text-gray-700 hover:text-[#4a5568] px-3 py-2 text-sm font-medium transition-colors">
                   Product
                 </a>
-                <a href="#demo" className="text-gray-700 hover:text-[#4ade80] px-3 py-2 text-sm font-medium transition-colors">
+                <a href="#demo" className="text-gray-700 hover:text-[#4a5568] px-3 py-2 text-sm font-medium transition-colors">
                   Demo
                 </a>
-                <a href="#team" className="text-gray-700 hover:text-[#4ade80] px-3 py-2 text-sm font-medium transition-colors">
+                <a href="#team" className="text-gray-700 hover:text-[#4a5568] px-3 py-2 text-sm font-medium transition-colors">
                   Team
                 </a>
-                <a href="#about" className="text-gray-700 hover:text-[#4ade80] px-3 py-2 text-sm font-medium transition-colors">
+                <a href="#about" className="text-gray-700 hover:text-[#4a5568] px-3 py-2 text-sm font-medium transition-colors">
                   About
                 </a>
-                <a href="#contact" className="text-gray-700 hover:text-[#4ade80] px-3 py-2 text-sm font-medium transition-colors">
+                <a href="#contact" className="text-gray-700 hover:text-[#4a5568] px-3 py-2 text-sm font-medium transition-colors">
                   Contact
                 </a>
               </div>
@@ -51,13 +51,13 @@ export default function Home() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button 
                 onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-white border border-black text-[#4ade80] px-8 py-4 font-semibold text-lg hover:bg-[#4ade80] hover:text-white transition-all duration-300 cursor-pointer"
+                className="bg-white border border-black text-[#4a5568] px-8 py-4 font-semibold text-lg hover:bg-[#4a5568] hover:text-white transition-all duration-300 cursor-pointer"
               >
                 Request Demo
               </button>
               <button 
                 onClick={() => document.getElementById('about')?.scrollIntoView({ behavior: 'smooth' })}
-                className="bg-white border border-black text-[#4ade80] px-8 py-4 font-semibold text-lg hover:bg-[#4ade80] hover:text-white transition-all duration-300 cursor-pointer"
+                className="bg-white border border-black text-[#4a5568] px-8 py-4 font-semibold text-lg hover:bg-[#4a5568] hover:text-white transition-all duration-300 cursor-pointer"
               >
                 Learn More
               </button>
@@ -79,40 +79,40 @@ export default function Home() {
           </div>
           
           <div className="grid md:grid-cols-3 gap-8">
-            <div className="text-center p-8 rounded-xl gradient-bg border border-green-200 card-hover float-animation">
+            <div className="text-center p-8 rounded-xl gradient-bg border border-gray-300 card-hover float-animation">
               <div className="w-16 h-16 mint-accent rounded-full flex items-center justify-center mx-auto mb-6 pulse-mint">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
                 </svg>
               </div>
-              <h3 className="font-serif text-2xl font-bold text-gray-900 mb-4">Document Intelligence</h3>
-              <p className="text-gray-600">
+              <h3 className="font-serif text-2xl font-bold text-white mb-4">Document Intelligence</h3>
+              <p className="text-white">
                 Convert complex technical medical device PDFs into structured, AI-accessible data with 
                 unprecedented accuracy and speed.
               </p>
             </div>
             
-            <div className="text-center p-8 rounded-xl gradient-bg border border-green-200 card-hover float-animation" style={{animationDelay: '1s'}}>
+            <div className="text-center p-8 rounded-xl gradient-bg border border-gray-300 card-hover float-animation animation-delay-1">
               <div className="w-16 h-16 mint-accent rounded-full flex items-center justify-center mx-auto mb-6 pulse-mint">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
                 </svg>
               </div>
-              <h3 className="font-serif text-2xl font-bold text-gray-900 mb-4">Natural Language Search</h3>
-              <p className="text-gray-600">
+              <h3 className="font-serif text-2xl font-bold text-white mb-4">Natural Language Search</h3>
+              <p className="text-white">
                 Query medical device specifications in plain English and receive instant, accurate answers 
                 powered by advanced RAG technology.
               </p>
             </div>
             
-            <div className="text-center p-8 rounded-xl gradient-bg border border-green-200 card-hover float-animation" style={{animationDelay: '2s'}}>
+            <div className="text-center p-8 rounded-xl gradient-bg border border-gray-300 card-hover float-animation animation-delay-2">
               <div className="w-16 h-16 mint-accent rounded-full flex items-center justify-center mx-auto mb-6 pulse-mint">
                 <svg className="w-8 h-8 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.746 0 3.332.477 4.5 1.253v13C19.832 18.477 18.246 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
                 </svg>
               </div>
-              <h3 className="font-serif text-2xl font-bold text-gray-900 mb-4">Training Suite</h3>
-              <p className="text-gray-600">
+              <h3 className="font-serif text-2xl font-bold text-white mb-4">Training Suite</h3>
+              <p className="text-white">
                 Transform real queries into comprehensive test suites, creating self-serving tutors that 
                 eliminate costly ride-alongs and accelerate onboarding.
               </p>
@@ -133,24 +133,15 @@ export default function Home() {
             </p>
           </div>
           
-          {/* Demo Placeholder */}
+          {/* Demo iframe */}
           <div className="bg-white border-2 border-black p-8 max-w-4xl mx-auto">
-            <div className="aspect-video bg-gray-900 flex items-center justify-center border border-black">
-              <div className="text-center">
-                <h3 className="text-3xl font-bold text-white mb-6 text-glow">Demo Video Coming Soon</h3>
-                <div className="text-white text-xl leading-relaxed mb-6">
-                  <p>Watch Alex, a sales rep at Stryker,</p>
-                  <p className="text-2xl font-bold mt-2">demonstrate how our</p>
-                                     <p className="text-3xl font-bold mt-2">AI copilot revolutionizes product data access</p>
-                  <p className="text-2xl font-bold mt-2">in high-stress OR environments</p>
-                </div>
-                <button 
-                  onClick={() => document.getElementById('contact')?.scrollIntoView({ behavior: 'smooth' })}
-                  className="mint-accent text-white px-8 py-4 font-semibold text-lg border border-black glow-highlight transition-all duration-300 cursor-pointer"
-                >
-                  Request Early Access
-                </button>
-              </div>
+            <div className="aspect-video bg-gray-900 flex items-center justify-center border border-black relative">
+              <iframe 
+                src="https://hhb-ai.vercel.app/" 
+                className="w-[90%] h-[90%] border-0"
+                title="HHB AI Demo"
+                allow="camera; microphone; geolocation"
+              />
             </div>
           </div>
         </div>
@@ -172,13 +163,15 @@ export default function Home() {
             {/* Dylan Hubert */}
             <div className="founder-card">
               <div className="founder-avatar">
-                <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
+                <img 
+                  src="/images/dylanPFP.png" 
+                  alt="Dylan Hubert" 
+                  className="w-[90%] h-[90%] object-cover rounded-full border border-white"
+                />
               </div>
               <div className="founder-info">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Dylan Hubert</h3>
-                <p className="text-[#4ade80] font-semibold mb-4">Co-Founder & CTO</p>
+                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & CTO</p>
                 <p className="text-gray-600 mb-4">
                   BS in Computer Science, ML from American University. 2x NASA ML Internships. 
                   Expert in semantic search and RAG systems.
@@ -202,7 +195,7 @@ export default function Home() {
                     modal.style.display = 'flex';
                   }
                 }}
-                className="mt-4 w-full border border-black text-[#4ade80] px-4 py-2 font-semibold text-sm hover:bg-[#4ade80] hover:text-white transition-all duration-300 cursor-pointer"
+                className="mt-4 w-full border border-black text-[#4a5568] px-4 py-2 font-semibold text-sm hover:bg-[#4a5568] hover:text-white transition-all duration-300 cursor-pointer"
               >
                 Contact Dylan
               </button>
@@ -211,13 +204,15 @@ export default function Home() {
             {/* Luke Heitman */}
             <div className="founder-card">
               <div className="founder-avatar">
-                <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
+                <img 
+                  src="/images/lukePFP.jpeg" 
+                  alt="Luke Heitman" 
+                  className="w-[90%] h-[90%] object-cover rounded-full border border-white"
+                />
               </div>
               <div className="founder-info">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Luke Heitman</h3>
-                <p className="text-[#4ade80] font-semibold mb-4">Co-Founder & CTO</p>
+                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & CTO</p>
                 <p className="text-gray-600 mb-4">
                   BS in Computer Science, ML from American University. ML Engineer at Mind AI. 
                   Expert in RL agents and GANs.
@@ -241,7 +236,7 @@ export default function Home() {
                     modal.style.display = 'flex';
                   }
                 }}
-                className="mt-4 w-full border border-black text-[#4ade80] px-4 py-2 font-semibold text-sm hover:bg-[#4ade80] hover:text-white transition-all duration-300 cursor-pointer"
+                className="mt-4 w-full border border-black text-[#4a5568] px-4 py-2 font-semibold text-sm hover:bg-[#4a5568] hover:text-white transition-all duration-300 cursor-pointer"
               >
                 Contact Luke
               </button>
@@ -250,13 +245,15 @@ export default function Home() {
             {/* Alex Bull */}
             <div className="founder-card">
               <div className="founder-avatar">
-                <svg className="w-16 h-16 text-white" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-                </svg>
+                <img 
+                  src="/images/alexPFP.jpeg" 
+                  alt="Alex Bull" 
+                  className="w-[90%] h-[90%] object-cover rounded-full border border-white"
+                />
               </div>
               <div className="founder-info">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Alex Bull</h3>
-                <p className="text-[#4ade80] font-semibold mb-4">Co-Founder & Head of Sales</p>
+                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & Head of Sales</p>
                 <p className="text-gray-600 mb-4">
                   BS in Comprehensive Science from Villanova. Youngest hire at Stryker. 
                   Deep domain expertise in medical device sales.
@@ -279,7 +276,7 @@ export default function Home() {
                     modal.style.display = 'flex';
                   }
                 }}
-                className="mt-4 w-full border border-black text-[#4ade80] px-4 py-2 font-semibold text-sm hover:bg-[#4ade80] hover:text-white transition-all duration-300 cursor-pointer"
+                className="mt-4 w-full border border-black text-[#4a5568] px-4 py-2 font-semibold text-sm hover:bg-[#4a5568] hover:text-white transition-all duration-300 cursor-pointer"
               >
                 Contact Alex
               </button>
@@ -296,15 +293,15 @@ export default function Home() {
               <div className="font-serif text-4xl font-bold gradient-text mb-2">20%</div>
               <p className="text-gray-600">Increase in Field Rep Efficiency</p>
             </div>
-            <div className="float-animation" style={{animationDelay: '1s'}}>
+            <div className="float-animation animation-delay-1">
               <div className="font-serif text-4xl font-bold gradient-text mb-2">$1.5M+</div>
               <p className="text-gray-600">Potential Annual Savings per Client</p>
             </div>
-            <div className="float-animation" style={{animationDelay: '2s'}}>
-              <div className="font-serif text-4xl font-bold gradient-text mb-2">98.4%</div>
+            <div className="float-animation animation-delay-2">
+              <div className="font-serif text-4xl font-bold gradient-text mb-2">85%+</div>
               <p className="text-gray-600">Average Accuracy</p>
             </div>
-            <div className="float-animation" style={{animationDelay: '3s'}}>
+            <div className="float-animation animation-delay-3">
               <div className="font-serif text-4xl font-bold gradient-text mb-2">1000+</div>
               <p className="text-gray-600">Pages Successfully Processed</p>
             </div>
@@ -316,20 +313,20 @@ export default function Home() {
       <section id="about" className="py-20 gradient-bg">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-16">
-            <h2 className="font-serif text-4xl font-bold text-gray-900 mb-4">
+            <h2 className="font-serif text-4xl font-bold text-white mb-4">
               About HHB Inc.
             </h2>
-            <p className="text-xl text-gray-600 max-w-3xl mx-auto">
+            <p className="text-xl text-white max-w-3xl mx-auto">
               Founded by technical experts with deep domain knowledge in medical device sales and AI development
             </p>
           </div>
           
           <div className="max-w-4xl mx-auto">
             <div className="text-center mb-12">
-              <h3 className="font-serif text-3xl font-bold text-gray-900 mb-6">
+              <h3 className="font-serif text-3xl font-bold text-white mb-6">
                 Technical Excellence Meets Industry Expertise
               </h3>
-              <p className="text-gray-600 text-lg leading-relaxed max-w-3xl mx-auto mb-8">
+              <p className="text-white text-lg leading-relaxed max-w-3xl mx-auto mb-8">
                 Our team combines cutting-edge AI development with real-world medical device sales experience. 
                 We understand the challenges field representatives face daily and have built solutions that 
                 address their specific needs.
@@ -356,41 +353,41 @@ export default function Home() {
                   Enterprise-ready infrastructure built on industry standards, enhanced with proprietary AI innovations
                 </p>
                 <div className="space-y-4">
-                  <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg card-hover">
-                    <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Easy Interface, Easy Integration</span>
-                    <span className="text-[#4ade80] font-semibold text-sm flex-shrink-0">Core Platform</span>
-                  </div>
-                  <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg card-hover">
-                    <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Vercel AI SDK + In–House</span>
-                    <span className="text-[#4ade80] font-semibold text-sm flex-shrink-0">AI Integration</span>
-                  </div>
-                  <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg card-hover">
-                    <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Custom Adaptive Pre–Processing Pipeline</span> 
-                    <span className="text-[#4ade80] font-semibold text-sm flex-shrink-0">Document Processing</span>
-                  </div>
-                  <div className="flex items-center justify-between p-3 bg-green-50 rounded-lg card-hover">
-                    <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Custom Agentic Information Retrieval System</span>
-                    <span className="text-[#4ade80] font-semibold text-sm flex-shrink-0">Search Engine</span>
-                  </div>
+                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
+                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Easy Interface, Easy Integration</span>
+                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">Core Platform</span>
+                    </div>
+                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
+                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Vercel AI SDK + In–House</span>
+                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">AI Integration</span>
+                    </div>
+                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
+                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Custom Adaptive Pre–Processing Pipeline</span> 
+                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">Document Processing</span>
+                    </div>
+                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
+                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Custom Agentic Information Retrieval System</span>
+                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">Search Engine</span>
+                    </div>
                 </div>
               </div>
             </div>
             {/* Metrics Area */}
             <div className="mt-8 bg-white border border-black p-8 flex flex-row items-center justify-center gap-8 text-center flex-wrap">
               <div>
-                <div className="text-2xl font-bold text-[#4ade80] mb-1">1000+</div>
+                <div className="text-2xl font-bold text-[#4a5568] mb-1">1000+</div>
                 <div className="font-semibold text-gray-900">pages successfully processed</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-[#4ade80] mb-1">98.4%</div>
+                <div className="text-2xl font-bold text-[#4a5568] mb-1">85%+</div>
                 <div className="font-semibold text-gray-900">average accuracy</div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-[#4ade80] mb-1">3500ms</div>
+                <div className="text-2xl font-bold text-[#4a5568] mb-1">3500ms</div>
                 <div className="font-semibold text-gray-900">average response time <span className="text-gray-500">(±2000ms)</span></div>
               </div>
               <div>
-                <div className="text-2xl font-bold text-[#4ade80] mb-1">Lossless</div>
+                <div className="text-2xl font-bold text-[#4a5568] mb-1">Lossless</div>
                 <div className="font-semibold text-gray-900">data conversion & 100% model accessibility</div>
               </div>
             </div>
@@ -418,7 +415,7 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">The Solution</h4>
               <p className="text-gray-600 leading-relaxed">
-                We transform human-readable documents into computer-accessible data. What once required hours of manual searching now happens instantly. What was prone to human error becomes 98.4% accurate. What cost thousands in labor now scales infinitely.
+                We transform human-readable documents into computer-accessible data. What once required hours of manual searching now happens instantly. What was prone to human error becomes 85%+ accurate. What cost thousands in labor now scales infinitely.
               </p>
             </div>
           </div>
@@ -522,19 +519,19 @@ export default function Home() {
                   <div className="space-y-3">
                     <div className="bg-white border border-gray-300 rounded p-3 text-left">
                       <div className="text-xs text-gray-600 mb-2">"What's the model number?"</div>
-                      <div className="text-xs text-[#4ade80] font-semibold text-right">H6-PRF →</div>
+                      <div className="text-xs text-[#4a5568] font-semibold text-right">H6-PRF →</div>
                     </div>
                     <div className="bg-white border border-gray-300 rounded p-3 text-left">
                       <div className="text-xs text-gray-600 mb-2">"What sizes work with titanium?"</div>
-                      <div className="text-xs text-[#4ade80] font-semibold text-right">Sizes 1-2, 3-4 →</div>
+                      <div className="text-xs text-[#4a5568] font-semibold text-right">Sizes 1-2, 3-4 →</div>
                     </div>
                     <div className="bg-white border border-gray-300 rounded p-3 text-left">
                       <div className="text-xs text-gray-600 mb-2">"What's the notch depth for size 5-6?"</div>
-                      <div className="text-xs text-[#4ade80] font-semibold text-right">16mm →</div>
+                      <div className="text-xs text-[#4a5568] font-semibold text-right">16mm →</div>
                     </div>
                     <div className="bg-white border border-gray-300 rounded p-3 text-left">
                       <div className="text-xs text-gray-600 mb-2">"What type of screw is this?"</div>
-                      <div className="text-xs text-[#4ade80] font-semibold text-right">Dual-threaded, self-tapping orthopedic fixation screw →</div>
+                      <div className="text-xs text-[#4a5568] font-semibold text-right">Dual-threaded, self-tapping orthopedic fixation screw →</div>
                     </div>
                   </div>
                 </div>
@@ -566,30 +563,30 @@ export default function Home() {
                 <div className="grid md:grid-cols-2 gap-6">
                   <div>
                     <label className="block text-sm font-medium text-black mb-2">First Name</label>
-                    <input type="text" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4ade80] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4ade80] selection:text-black" placeholder="Enter your first name" />
+                    <input type="text" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4a5568] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4a5568] selection:text-black" placeholder="Enter your first name" />
                   </div>
                   <div>
                     <label className="block text-sm font-medium text-black mb-2">Last Name</label>
-                    <input type="text" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4ade80] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4ade80] selection:text-black" placeholder="Enter your last name" />
+                    <input type="text" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4a5568] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4a5568] selection:text-black" placeholder="Enter your last name" />
                   </div>
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-black mb-2">Company</label>
-                  <input type="text" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4ade80] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4ade80] selection:text-black" placeholder="Enter your company name" />
+                  <input type="text" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4a5568] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4a5568] selection:text-black" placeholder="Enter your company name" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-black mb-2">Email</label>
-                  <input type="email" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4ade80] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4ade80] selection:text-black" placeholder="Enter your email address" />
+                  <input type="email" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4a5568] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4a5568] selection:text-black" placeholder="Enter your email address" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-black mb-2">Phone Number</label>
-                  <input type="tel" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4ade80] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4ade80] selection:text-black" placeholder="Enter your phone number" />
+                  <input type="tel" className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4a5568] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4a5568] selection:text-black" placeholder="Enter your phone number" />
                 </div>
                 <div>
                   <label className="block text-sm font-medium text-black mb-2">Message</label>
-                  <textarea rows={4} className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4ade80] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4ade80] selection:text-black" placeholder="Tell us about your needs and how we can help..."></textarea>
+                  <textarea rows={4} className="w-full px-4 py-3 border border-black focus:ring-2 focus:ring-[#4a5568] focus:border-transparent transition-all duration-300 text-black focus:outline-none selection:bg-[#4a5568] selection:text-black" placeholder="Tell us about your needs and how we can help..."></textarea>
                 </div>
-                <button type="submit" className="w-full border border-black text-[#4ade80] py-4 font-semibold text-lg hover:bg-[#4ade80] hover:text-white transition-all duration-300">
+                <button type="submit" className="w-full border border-black text-[#4a5568] py-4 font-semibold text-lg hover:bg-[#4a5568] hover:text-white transition-all duration-300">
                   Request Demo
                 </button>
               </form>
@@ -608,19 +605,7 @@ export default function Home() {
       {/* Contact Modal */}
       <div 
         id="contact-modal" 
-        style={{
-          position: 'fixed',
-          top: 0,
-          left: 0,
-          width: '100%',
-          height: '100%',
-          backgroundColor: 'rgba(0, 0, 0, 0.5)',
-          display: 'none',
-          alignItems: 'center',
-          justifyContent: 'center',
-          zIndex: 9999,
-          padding: '1rem'
-        }}
+        className="modal-overlay"
         onClick={(e) => {
           if (e.target === e.currentTarget) {
             const modal = document.getElementById('contact-modal');
@@ -630,26 +615,19 @@ export default function Home() {
           }
         }}
       >
-                <div style={{
-          backgroundColor: 'white',
-          border: '1px solid black',
-          padding: '1.5rem',
-          maxWidth: '24rem',
-          width: '100%',
-          position: 'relative'
-        }} className="shadow-2xl">
+        <div className="modal-content shadow-2xl">
           <div className="text-center">
             <h3 className="text-xl font-bold text-gray-900 mb-4" id="contact-name">Contact</h3>
             
             <div className="space-y-4">
               <div className="flex items-center justify-center space-x-3">
-                <svg className="w-5 h-5 text-[#4ade80] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-[#4a5568] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
                 <span className="text-black font-semibold text-base" id="contact-email">email@example.com</span>
               </div>
               <div className="flex items-center justify-center space-x-3">
-                <svg className="w-5 h-5 text-[#4ade80] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-5 h-5 text-[#4a5568] flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
                 </svg>
                 <span className="text-black font-semibold text-base" id="contact-phone">+1 (555) 123-4567</span>
