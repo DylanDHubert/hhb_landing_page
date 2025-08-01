@@ -171,7 +171,7 @@ export default function Home() {
               </div>
               <div className="founder-info">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Dylan Hubert</h3>
-                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & CTO</p>
+                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & Technical Lead</p>
                 <p className="text-gray-600 mb-4">
                   BS in Computer Science, ML from American University. 2x NASA ML Internships. 
                   Expert in semantic search and RAG systems.
@@ -212,7 +212,7 @@ export default function Home() {
               </div>
               <div className="founder-info">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Luke Heitman</h3>
-                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & CTO</p>
+                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & Technical Lead</p>
                 <p className="text-gray-600 mb-4">
                   BS in Computer Science, ML from American University. ML Engineer at Mind AI. 
                   Expert in RL agents and GANs.
@@ -253,10 +253,10 @@ export default function Home() {
               </div>
               <div className="founder-info">
                 <h3 className="text-2xl font-bold text-gray-900 mb-2">Alex Bull</h3>
-                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & Head of Sales</p>
+                <p className="text-[#4a5568] font-semibold mb-4">Co-Founder & Field Operations</p>
                 <p className="text-gray-600 mb-4">
                   BS in Comprehensive Science from Villanova. Youngest hire at Stryker. 
-                  Deep domain expertise in medical device sales.
+                  Deep domain expertise in medical device sales and customer relations.
                 </p>
               </div>
               <div className="founder-tags">
@@ -285,29 +285,7 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-20 grid-pattern-bg">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-4 gap-8 text-center">
-            <div className="float-animation">
-              <div className="font-serif text-4xl font-bold gradient-text mb-2">20%</div>
-              <p className="text-gray-600">Increase in Field Rep Efficiency</p>
-            </div>
-            <div className="float-animation animation-delay-1">
-              <div className="font-serif text-4xl font-bold gradient-text mb-2">$1.5M+</div>
-              <p className="text-gray-600">Potential Annual Savings per Client</p>
-            </div>
-            <div className="float-animation animation-delay-2">
-              <div className="font-serif text-4xl font-bold gradient-text mb-2">85%+</div>
-              <p className="text-gray-600">Average Accuracy</p>
-            </div>
-            <div className="float-animation animation-delay-3">
-              <div className="font-serif text-4xl font-bold gradient-text mb-2">1000+</div>
-              <p className="text-gray-600">Pages Successfully Processed</p>
-            </div>
-          </div>
-        </div>
-      </section>
+
 
       {/* About Section */}
       <section id="about" className="py-20 gradient-bg">
@@ -322,6 +300,22 @@ export default function Home() {
           </div>
           
           <div className="max-w-4xl mx-auto">
+            {/* Metrics Area */}
+            <div className="mb-12 bg-white border border-black p-8 flex flex-row items-center justify-center gap-8 text-center flex-wrap">
+              <div>
+                <div className="text-2xl font-bold text-[#4a5568] mb-1">1000+</div>
+                <div className="font-semibold text-gray-900">pages successfully processed</div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-[#4a5568] mb-1">3500ms</div>
+                <div className="font-semibold text-gray-900">average response time <span className="text-gray-500">(±2000ms)</span></div>
+              </div>
+              <div>
+                <div className="text-2xl font-bold text-[#4a5568] mb-1">Lossless</div>
+                <div className="font-semibold text-gray-900">data conversion & 100% model accessibility</div>
+              </div>
+            </div>
+            
             <div className="text-center mb-12">
               <h3 className="font-serif text-3xl font-bold text-white mb-6">
                 Technical Excellence Meets Industry Expertise
@@ -333,62 +327,30 @@ export default function Home() {
               </p>
             </div>
             
-            <div className="grid md:grid-cols-2 gap-8 mb-12">
-              <div className="bg-white border-2 border-black p-8">
-                <h4 className="font-serif text-xl font-bold text-gray-900 mb-4">Our Approach</h4>
-                <p className="text-gray-600 mb-4">
-                  Our technology stack combines cutting-edge AI innovation with industry-standard reliability. 
-                  Built ontop of proven frameworks like LlamaParse and Vercel AI SDK, our custom pipelines leverage the latest 
-                  advances in machine learning while maintaining enterprise-grade security and scalability.
+            {/* DEVELOPMENT METHODOLOGY SECTION */}
+            <div className="mt-8 text-center">
+              <div className="bg-gray-50 border-2 border-black p-8 max-w-4xl mx-auto">
+                <h3 className="text-2xl font-bold text-gray-900 mb-4">Built with Modern Development Practices</h3>
+                <p className="text-lg text-gray-600 mb-6">
+                  We use agile methodology to keep our software using state-of-the-art technical document processing packages, 
+                  ensuring continuous improvement and cutting-edge performance.
                 </p>
-                <p className="text-gray-600">
-                  Currently deploying in stealth to select companies, 
-                  we're validating our approach with real-world feedback from industry leaders.
-                </p>
-              </div>
-              
-              <div className="bg-white border-2 border-black p-8">
-                <h4 className="font-serif text-xl font-bold text-gray-900 mb-6">Our Technology Stack</h4>
-                <p className="text-gray-600 mb-4 text-sm">
-                  Enterprise-ready infrastructure built on industry standards, enhanced with proprietary AI innovations
-                </p>
-                <div className="space-y-4">
-                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
-                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Easy Interface, Easy Integration</span>
-                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">Core Platform</span>
-                    </div>
-                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
-                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Vercel AI SDK + In–House</span>
-                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">AI Integration</span>
-                    </div>
-                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
-                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Custom Adaptive Pre–Processing Pipeline</span> 
-                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">Document Processing</span>
-                    </div>
-                                      <div className="flex items-center justify-between p-3 bg-gray-100 rounded-lg card-hover">
-                      <span className="font-semibold text-gray-900 text-sm flex-1 pr-4">Custom Agentic Information Retrieval System</span>
-                      <span className="text-[#4a5568] font-semibold text-sm flex-shrink-0">Search Engine</span>
-                    </div>
+                <div className="grid md:grid-cols-2 gap-6 text-left">
+                  <div className="bg-white border border-gray-300 p-6 rounded-lg">
+                    <h4 className="font-semibold text-gray-900 mb-3">Agile Development</h4>
+                    <p className="text-gray-600 text-sm">
+                      Rapid iterations and continuous feedback loops ensure our AI solutions stay ahead of industry standards 
+                      and adapt to evolving customer needs.
+                    </p>
+                  </div>
+                  <div className="bg-white border border-gray-300 p-6 rounded-lg">
+                    <h4 className="font-semibold text-gray-900 mb-3">State-of-the-Art Technology</h4>
+                    <p className="text-gray-600 text-sm">
+                      Leveraging the latest technical document processing packages and AI frameworks to deliver 
+                      unmatched accuracy and performance in medical device documentation analysis.
+                    </p>
+                  </div>
                 </div>
-              </div>
-            </div>
-            {/* Metrics Area */}
-            <div className="mt-8 bg-white border border-black p-8 flex flex-row items-center justify-center gap-8 text-center flex-wrap">
-              <div>
-                <div className="text-2xl font-bold text-[#4a5568] mb-1">1000+</div>
-                <div className="font-semibold text-gray-900">pages successfully processed</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-[#4a5568] mb-1">85%+</div>
-                <div className="font-semibold text-gray-900">average accuracy</div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-[#4a5568] mb-1">3500ms</div>
-                <div className="font-semibold text-gray-900">average response time <span className="text-gray-500">(±2000ms)</span></div>
-              </div>
-              <div>
-                <div className="text-2xl font-bold text-[#4a5568] mb-1">Lossless</div>
-                <div className="font-semibold text-gray-900">data conversion & 100% model accessibility</div>
               </div>
             </div>
           </div>
@@ -415,7 +377,7 @@ export default function Home() {
             <div>
               <h4 className="text-lg font-semibold text-gray-900 mb-3">The Solution</h4>
               <p className="text-gray-600 leading-relaxed">
-                We transform human-readable documents into computer-accessible data. What once required hours of manual searching now happens instantly. What was prone to human error becomes 85%+ accurate. What cost thousands in labor now scales infinitely.
+                We transform human-readable documents into computer-accessible data. What once required hours of manual searching now happens instantly. What was prone to human error becomes instantly accurate. What cost thousands in labor now scales infinitely.
               </p>
             </div>
           </div>
@@ -542,6 +504,8 @@ export default function Home() {
               </p>
             </div>
           </div>
+          
+
         </div>
       </section>
 
